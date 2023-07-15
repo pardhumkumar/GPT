@@ -59,7 +59,7 @@ const Summary = () => {
         </Alert>
       </Collapse>
       <form onSubmit={handleSubmit}>
-        <Typography variant="h3">Summarize Text</Typography>
+        <Typography fontSize="24">Summarize Text</Typography>
 
         <TextField
           placeholder="add your text"
@@ -115,7 +115,7 @@ const Summary = () => {
           }}
         >
           <Typography
-            variant="h5"
+          fontSize="16"
             color="natural.main"
             sx={{
               textAlign: "center",
@@ -132,3 +132,4 @@ const Summary = () => {
 };
 
 export default Summary;
+

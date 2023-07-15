@@ -28,8 +28,8 @@ const Navbar = () => {
       textAlign={"center"}
       sx={{ boxShadow: 3, mb: 2 }}
     >
-      <Typography variant="h1" color="primary" fontWeight="bold">
-        AI GPT3 Clone
+      <Typography fontSize={40}  color="#60bf70" fontWeight="bold">
+       APNA GPT
       </Typography>
       {loggedIn ? (
         <>

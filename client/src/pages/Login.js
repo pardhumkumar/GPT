@@ -58,7 +58,7 @@ const Login = () => {
         </Alert>
       </Collapse>
       <form onSubmit={handleSubmit}>
-        <Typography variant="h3">Sign In</Typography>
+        <Typography fontSize={24}>Sign In</Typography>
 
         <TextField
           label="email"

@@ -15,4 +15,9 @@ a{
 a:hover {
   color: rgb(29, 31, 29) !important;
 }
-
+a.active{
+  color: #60bf70!important;
+}
+ button{
+  background-color: #60bf70!important;
+ }

@@ -60,7 +60,7 @@ const Paragraph = () => {
         </Alert>
       </Collapse>
       <form onSubmit={handleSubmit}>
-        <Typography variant="h3">Generate Paragraph</Typography>
+        <Typography fontSize="24">Generate Paragraph</Typography>
 
         <TextField
           placeholder="add your text"
@@ -116,7 +116,7 @@ const Paragraph = () => {
           }}
         >
           <Typography
-            variant="h5"
+            fontSize="16"
             color="natural.main"
             sx={{
               textAlign: "center",

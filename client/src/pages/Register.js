@@ -58,7 +58,7 @@ const Register = () => {
         </Alert>
       </Collapse>
       <form onSubmit={handleSubmit}>
-        <Typography variant="h3">Sign Up</Typography>
+        <Typography fontSize={24}>Sign Up</Typography>
         <TextField
           label="username"
           required

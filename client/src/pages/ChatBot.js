@@ -59,7 +59,7 @@ const ChatBot = () => {
         </Alert>
       </Collapse>
       <form onSubmit={handleSubmit}>
-        <Typography variant="h3">Here is your Chat Assistant</Typography>
+        <Typography fontSize="24">Here is your Chat Assistant</Typography>
 
         <TextField
           placeholder="add your text"
@@ -115,7 +115,8 @@ const ChatBot = () => {
           }}
         >
           <Typography
-            variant="h5"
+            // variant="h5"
+            fontSize="16"
             color="natural.main"
             sx={{
               textAlign: "center",

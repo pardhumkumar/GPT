@@ -1,11 +1,12 @@
-const express=require('express')
-const { summaryController,paragraphController, chabotController,jsconverterController,scifiImageController } = require('../controller/openaicontroller')
-const router=express.Router()
+const express = require('express');
+const { summaryController,paragraphController,chatbotController,jsconverterController,scifiImageController } = require('../controllers/openaiController');
+const router = express.Router();
 
-router.post('/summary',summaryController)
-router.post('/paragraph',paragraphController)
-router.post('/chatbot',chabotController)
-router.post('js-converter/',jsconverterController)
-router.post('image/',scifiImageController)
+// route
+router.post('/summary' , summaryController);
+router.post("/paragraph", paragraphController);
+router.post("/chatbot", chatbotController);
+router.post("/jsconverter", jsconverterController);
+router.post("/scifi-image", scifiImageController);
 
-module.exports=router
+module.exports = router;

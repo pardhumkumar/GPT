@@ -12,8 +12,8 @@ const Homepage = () => {
     <>
       <Box sx={{ display: "flex", flexDirection: "row" }}>
         <Box p={2}>
-          <Typography variant="h4" mb={2} fontWeight="bold">
-            Text Generation
+          <Typography fontSize={22} mb={2} fontWeight="bold">
+            Summary Generation
           </Typography>
           <Card
             onClick={() => navigate("/summary")}
@@ -25,27 +25,27 @@ const Homepage = () => {
               "&:hover": {
                 border: 2,
                 boxShadow: 0,
-                borderColor: "primary.dark",
+                borderColor: "#60bf70",
                 cursor: "pointer",
               },
             }}
           >
             <DescriptionRounded
-              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 }}
+              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 ,mb:2,color:"#60bf70"}}
             />
             <Stack p={3} pt={0}>
-              <Typography fontWeight="bold" variant="h5">
-                TEXT SUMAMRY
+              <Typography fontWeight="bold"  fontSize={18}>
+                TEXT SUMMARY
               </Typography>
-              <Typography variant="h6">
+              <Typography fontSize={14}>
                 Summarize long text into short sentences
               </Typography>
             </Stack>
           </Card>
         </Box>
         <Box p={2}>
-          <Typography variant="h4" mb={2} fontWeight="bold">
-            Parapgraph Generation
+          <Typography fontSize={22} mb={2} fontWeight="bold">
+            Paragraph Generation
           </Typography>
           <Card
             onClick={() => navigate("/paragraph")}
@@ -57,26 +57,26 @@ const Homepage = () => {
               "&:hover": {
                 border: 2,
                 boxShadow: 0,
-                borderColor: "primary.dark",
+                borderColor: "#60bf70",
                 cursor: "pointer",
               },
             }}
           >
             <FormatAlignLeftOutlined
-              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 }}
+              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 ,mb:2,color:"#60bf70"}}
             />
             <Stack p={3} pt={0}>
-              <Typography fontWeight="bold" variant="h5">
-                Parapgraph
+              <Typography fontWeight="bold" fontSize={18}>
+                Paragraph
               </Typography>
-              <Typography variant="h6">
+              <Typography fontSize={14}>
                 Generate Paragraph with words
               </Typography>
             </Stack>
           </Card>
         </Box>
         <Box p={2}>
-          <Typography variant="h4" mb={2} fontWeight="bold">
+          <Typography fontSize={22} mb={2} fontWeight="bold">
             AI ChatBot
           </Typography>
           <Card
@@ -89,25 +89,25 @@ const Homepage = () => {
               "&:hover": {
                 border: 2,
                 boxShadow: 0,
-                borderColor: "primary.dark",
+                borderColor: "#60bf70",
                 cursor: "pointer",
               },
             }}
           >
             <ChatRounded
-              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 }}
+              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 ,mb:2,color:"#60bf70"}}
             />
             <Stack p={3} pt={0}>
-              <Typography fontWeight="bold" variant="h5">
+              <Typography fontWeight="bold" fontSize={18}>
                 Chatbot
               </Typography>
-              <Typography variant="h6">Chat With AI Chatbot</Typography>
+              <Typography fontSize={14}>Chat With AI Chatbot</Typography>
             </Stack>
           </Card>
         </Box>
         <Box p={2}>
-          <Typography variant="h4" mb={2} fontWeight="bold">
-            Javascript Converter
+          <Typography fontSize={22} mb={2} fontWeight="bold">
+            JS Converter
           </Typography>
           <Card
             onClick={() => navigate("/js-converter")}
@@ -119,30 +119,30 @@ const Homepage = () => {
               "&:hover": {
                 border: 2,
                 boxShadow: 0,
-                borderColor: "primary.dark",
+                borderColor: "#60bf70",
                 cursor: "pointer",
               },
             }}
           >
             <JavascriptIcon
-              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 }}
+              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 ,mb:2,color:"#60bf70"}}
             />
             <Stack p={3} pt={0}>
-              <Typography fontWeight="bold" variant="h5">
+              <Typography fontWeight="bold" fontSize={18}>
                 JS CONVERTER
               </Typography>
-              <Typography variant="h6">
+              <Typography fontSize={14}>
                 Trasnlate english to javascript code
               </Typography>
             </Stack>
           </Card>
         </Box>
         <Box p={2}>
-          <Typography variant="h4" mb={2} fontWeight="bold">
+          <Typography fontSize={22}  mb={2} fontWeight="bold">
             AI SCIFI Images
           </Typography>
           <Card
-            onClick={() => navigate("/image")}
+            onClick={() => navigate("/scifi-image")}
             sx={{
               boxShadow: 2,
               borderRadius: 5,
@@ -151,19 +151,19 @@ const Homepage = () => {
               "&:hover": {
                 border: 2,
                 boxShadow: 0,
-                borderColor: "primary.dark",
+                borderColor: "#60bf70",
                 cursor: "pointer",
               },
             }}
           >
             < ImageSearchIcon
-              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 }}
+              sx={{ fontSize: 80, color: "primary.main", mt: 2, ml: 2 ,mb:2,color:"#60bf70"}}
             />
             <Stack p={3} pt={0}>
-              <Typography fontWeight="bold" variant="h5">
+              <Typography fontWeight="bold" fontSize={18}>
                 Scifi Image
               </Typography>
-              <Typography variant="h6">Generate Scifi images</Typography>
+              <Typography fontSize={14}>Generate Scifi images</Typography>
             </Stack>
           </Card>
         </Box>

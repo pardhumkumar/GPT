@@ -59,7 +59,7 @@ const ScifiImage = () => {
         </Alert>
       </Collapse>
       <form onSubmit={handleSubmit}>
-        <Typography fontSize={24}>Scifi Image</Typography>
+        <Typography fontSize={20}>Scifi Image</Typography>
 
         <TextField
           placeholder="add your text"
